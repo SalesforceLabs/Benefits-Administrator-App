@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Value_Plan_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Minimum Value Plan (MVP) indicator as defined by Affordable Care Act (ACA). Only applicable to health coverage offer.</inlineHelpText>
+    <label>Minimum Value Plan Indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

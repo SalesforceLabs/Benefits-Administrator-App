@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Coverage_Holder_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Relation__c) != &apos;Self&apos;, ISBLANK( Primary_Coverage_Holder__c ))</errorConditionFormula>
+    <errorMessage>Primary Coverage Holder Required.</errorMessage>
+</ValidationRule>

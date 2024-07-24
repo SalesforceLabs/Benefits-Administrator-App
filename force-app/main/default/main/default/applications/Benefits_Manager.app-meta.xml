@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#DB2323</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Benefits manager allows Salesforce Platform users to add dependents and choose benefits such as health coverage, dental, and vision.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Benefits Manager</label>
+    <navType>Standard</navType>
+    <tabs>Offer_Selection_Page</tabs>
+    <tabs>Benefit_Individual__c</tabs>
+    <tabs>Selected_Offer__c</tabs>
+    <tabs>Coverage_Period__c</tabs>
+    <tabs>Plan__c</tabs>
+    <tabs>Benefit_Event__c</tabs>
+    <tabs>Coverage_Type__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Benefits_Manager_UtilityBar</utilityBar>
+</CustomApplication>

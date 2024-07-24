@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Covered_Individual_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Covered_Individual__c)</errorConditionFormula>
+    <errorMessage>Covered Individual is required.</errorMessage>
+</ValidationRule>
