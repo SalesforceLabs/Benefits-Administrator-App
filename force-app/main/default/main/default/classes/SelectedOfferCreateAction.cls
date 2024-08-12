@@ -1,4 +1,4 @@
-public class SelectedOfferCreateAction {
+public with sharing class SelectedOfferCreateAction {
     
     @InvocableMethod(label='Create SelectedOffer' description='Creates SelectedOffer from provided inputs')
     public static void createSelectedOffer(List<String> input) {

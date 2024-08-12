@@ -1,4 +1,4 @@
-public class SelectedOfferCreateUtil {
+public with sharing class SelectedOfferCreateUtil {
     
     public static Plan__c getPlanFromInput(List<String> input) {
         String inputStr = input.get(0);
